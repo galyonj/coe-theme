@@ -37,7 +37,7 @@ const precision = 10;
 const jsVendorSRC = './dev/js/vendor/*.js';
 
 // Path to place the compiled JS vendors file.
-const jsVendorDestination = './build/assets/';
+const jsVendorDestination = './assets/';
 
 // Compiled JS vendors file name. Default set to vendors i.e. vendors.js.
 const jsVendorFile = 'vendor';
@@ -48,7 +48,7 @@ const jsVendorFile = 'vendor';
 const jsCustomSRC = './dev/js/custom/*.js';
 
 // Path to place the compiled JS custom scripts file.
-const jsCustomDestination = './build/assets/';
+const jsCustomDestination = './assets/';
 
 // Compiled JS custom file name. Default set to custom i.e. custom.js.
 const jsCustomFile = 'custom';
@@ -61,7 +61,7 @@ const imgSRC = './dev/img/raw/**/*';
 
 // Destination folder of optimized images.
 // > Must be different from the imagesSRC folder.
-const imgDST = './build/assets/img/';
+const imgDST = './assets/img/';
 
 // >>>>> Watch files paths.
 // Path to all *.scss files inside css folder and inside them.
@@ -110,16 +110,16 @@ const zipIgnoreGlob = [
 
 // >>>>> Translation options.
 // Your text domain here.
-const textDomain = 'WPGULP';
+const textDomain = 'coe';
 
 // Name of the translation file.
-const translationFile = 'WPGULP.pot';
+const translationFile = 'coe.pot';
 
 // Where to save the translation files.
 const translationDestination = './languages';
 
 // Package name.
-const packageName = 'WPGULP';
+const packageName = 'coe';
 
 // Where can users report bugs.
 const bugReport = 'https://github.com/galyonj/coe-theme/issues/;
